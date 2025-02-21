@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Calculator</title>
+</head>
+<body>
+    <h2>Investment Calculator</h2>
+
+    <label for="interestRate">Annual Interest Rate (decimal, e.g., 0.05 for 5%):</label>
+    <input type="number" id="interestRate" step="0.01"><br><br>
+
+    <label for="deposit">Initial Deposit Amount:</label>
+    <input type="number" id="deposit"><br><br>
+
+    <label for="monthlyDeposit">Monthly Deposit Amount:</label>
+    <input type="number" id="monthlyDeposit"><br><br>
+
+    <label for="term">Investment Term (years):</label>
+    <input type="number" id="term"><br><br>
+
+    <button onclick="calculateInvestment()">Calculate</button>
+
+    <h3>Results:</h3>
+    <p id="result"></p>
+
+    <script src="index.js"></script>  <!-- Link to external JavaScript file -->
+</body>
+</html>
